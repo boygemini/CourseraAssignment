@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+body{
+    background-color: rgba(112, 128, 144, 0.185);
+}
+
+center{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+.card1,
+.card2,
+.card3{     
+    background-color: rgb(255, 255, 255);
+    padding: 0px 0px 20px 20px;
+    margin: 10px;
+    height: auto;
+    border: 1px solid rgba(112, 128, 144, 0.452);
+}
+
+.tag{
+    width: 100px;
+    float: right;
+    text-align: center;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: bold ;
+    border-bottom-left-radius: 5px;
+}
+
+.tag1{
+    background-color: lavenderblush;
+}
+.tag2{
+    background-color: rgb(216, 157, 177);
+}
+.tag3{
+    background-color: rgb(101, 151, 68);
+}
+
+
+.info{
+    clear: both;
+    position: relative;
+    padding-top: 10px;
+}
+
+.container{
+    margin: 70px auto;
+}
+
+@media screen and (min-width:992px) {
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .container{
+        width: 90%;
+    }
+
+    .card1,
+    .card2{
+        float: left;
+        width: 46% ;
+        margin-bottom: 20px;
+    }
+    .card3{
+        clear: both;
+        width: 94.5% ;
+    }
+}
