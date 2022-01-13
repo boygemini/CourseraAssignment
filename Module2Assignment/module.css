@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgba(112, 128, 144, 0.185);
+    background-color: #7080902f;
 }
 
 center{
@@ -20,10 +20,10 @@ center{
 .card2,
 .card3{     
     background-color: rgb(255, 255, 255);
-    padding: 0px 0px 20px 20px;
+    padding: 0px 0px 10px 10px;
     margin: 10px;
     height: auto;
-    border: 1px solid rgba(112, 128, 144, 0.452);
+    border: 2px solid black;
 }
 
 .tag{
@@ -33,7 +33,9 @@ center{
     padding: 5px;
     font-size: 1em;
     font-weight: bold ;
-    border-bottom-left-radius: 5px;
+    margin-top: 0;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
 }
 
 .tag1{
@@ -51,6 +53,8 @@ center{
     clear: both;
     position: relative;
     padding-top: 10px;
+    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .container{
@@ -77,6 +81,7 @@ center{
     .card2{
         float: left;
         width: 46% ;
+        height: 270px;
         margin-bottom: 20px;
     }
     .card3{
