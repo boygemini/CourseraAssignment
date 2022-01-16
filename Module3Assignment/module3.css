@@ -27,9 +27,11 @@ h2{
     text-align: center;
 }
 
+
+
 @media screen and (min-width:992px) {
 
-    .navbar-nav,.navbar-toggler{
+    .navbar-nav{
         display: none;
     }
 
@@ -39,13 +41,30 @@ h2{
         margin: 30px auto;
         width: 32%;
     }
+
+    p > a, p > span{
+        display: none;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
+
     .navbar-toggler{
         display: none;
     }
-   
+
+    .navbar-collapse{
+        text-align: center;
+    }
+
+    .nav-link{
+        border-top: 1px solid slategray;
+    }
+
+    .nav-link:first-child{
+        border-top: none;
+    }
+ 
     .box1,
     .box2,
     .box3{
@@ -68,9 +87,20 @@ h2{
 @media screen and (min-width:0px) and (max-width:767px) {
 
     .navbar-collapse{
-        display: flex;
-        justify-content: center;
         text-align: center;
+    }
+
+    .nav-link{
+        border-top: 1px solid slategray;
+    }
+
+    .nav-link:first-child{
+        border-top: none;
+    }
+
+    .navbar-toggler:active,
+    .navbar-toggler:focus{
+        border:none;
     }
 
     .box1,
