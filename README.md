@@ -1,1 +1,1 @@
-# CourseraModule2Assignment
+# MyCourseraAssignments
