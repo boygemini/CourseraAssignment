@@ -1,11 +1,13 @@
-(function(window){
+    (function(window){
         let names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-        let callJsomeNames = function (){
+        let callNonJsomeNames = function(){
             for(let list in names){
                 if(names[list].charAt(0) !== "J" && names[list].charAt(0) !== "j"){
                     console.log("Good Bye " + names[list] + "!")
                 }
-            } 
+            }
         }
-        window.callJsomeNames = callJsomeNames;
+        window.callNonJsomeNames = callNonJsomeNames;
     })(window);
+    
+    
