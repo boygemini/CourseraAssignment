@@ -3,7 +3,7 @@
         let callNonJsomeNames = function(){
             for(let list in names){
                 if(names[list].charAt(0) !== "J" && names[list].charAt(0) !== "j"){
-                    console.log("Good Bye " + names[list] + "!")
+                    console.log("Hello " + names[list] + "!")
                 }
             }
         }
